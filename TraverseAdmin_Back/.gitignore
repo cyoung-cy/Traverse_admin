@@ -50,3 +50,5 @@ src/main/resources/application.yml
 .env
 local.properties
 
+# Firebase service account key
+src/main/resources/*.json
