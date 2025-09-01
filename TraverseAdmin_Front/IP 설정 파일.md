@@ -1,0 +1,9 @@
+- .env
+	- VITE_API_BASE_URL=http://211.187.162.65:8082
+- Dockerfile
+	- EXPOSE 3000
+- docker-compose.yml
+	- ports:  - "3000:3000" 
+- vite.config.js
+	- port: 3000
+	- target: "http://211.187.162.65:8082"
